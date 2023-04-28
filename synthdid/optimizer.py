@@ -1,7 +1,7 @@
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import StandardScaler
+from scikit_learn.preprocessing import StandardScaler
 from scipy.optimize import fmin_slsqp
 from toolz import partial
 from sklearn.model_selection import KFold, TimeSeriesSplit, RepeatedKFold
